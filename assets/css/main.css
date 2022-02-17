@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:500,700");
+@import url("https://fonts.google.com/specimen/Fira+Sans");
 @font-face {
   font-family: "Neometric-bold";
   src: url("../fonts/Neometric_Bold.otf");
@@ -40,13 +41,18 @@ body {
 }
 
 h1,
-h2,
+
 h3,
 h4,
 h5 {
   font-size: 36px;
   font-weight: 700;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+h2{
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Neometric-bold', sans-serif;
 }
 
 a {
@@ -139,15 +145,17 @@ ol li {
 }
 
 .section-title:before {
-  content: "[";
+  content: "{";
   color: #0099ff;
   padding-right: 10px;
+  font-family: "Fira Sans";
 }
 
 .section-title:after {
-  content: "]";
+  content: "}";
   color: #0099ff;
   padding-left: 10px;
+  font-family: "Fira Sans";
 }
 
 .section-subcontent {
@@ -2269,7 +2277,7 @@ footer {
    Countdown Style Start
    ========================================================================== */
 #count {
-  background: #f6f9f9;
+  background:  #212121;
 }
 
 #count .count-wrapper {
@@ -2303,7 +2311,7 @@ footer {
   border: none;
   position: relative;
   height: auto;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border-radius: 4px;
   text-align: center;
   font-weight: 400;
@@ -2318,7 +2326,7 @@ footer {
   line-height: 45px;
   font-weight: 700;
   letter-spacing: 0.3;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: block;
   color: #fff;
   margin-bottom: 10px;
