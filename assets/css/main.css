@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:500,700');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:500,700");
 html {
   overflow-x: hidden;
 }
@@ -12,7 +12,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #ff2fff; /* color of the scroll thumb */
+  background-color: #e58ab2; /* color of the scroll thumb */
   border-radius: 15px; /* roundness of the scroll thumb */
 }
 
@@ -21,7 +21,7 @@ body {
   background: #0f121a;
   font-size: 15px;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -40,7 +40,7 @@ h4,
 h5 {
   font-size: 36px;
   font-weight: 700;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -60,7 +60,7 @@ a a:focus {
 
 p {
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0px;
   font-size: 14px;
 }
@@ -133,13 +133,13 @@ ol li {
 }
 
 .section-title:before {
-  content: '[';
+  content: "[";
   color: #0099ff;
   padding-right: 10px;
 }
 
 .section-title:after {
-  content: ']';
+  content: "]";
   color: #0099ff;
   padding-left: 10px;
 }
@@ -163,7 +163,7 @@ ol li {
 
 .section-sub:before {
   position: absolute;
-  content: '';
+  content: "";
   height: 1px;
   width: 45px;
   left: 50%;
@@ -212,7 +212,7 @@ ol li {
   padding: 10px 30px;
   line-height: 22px;
   border-radius: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   font-weight: 500;
   color: #fff;
@@ -244,7 +244,7 @@ ol li {
 
 .btn-common:hover {
   /* color: #fff; */
-  background-image: linear-gradient(65deg, rgb(253, 45, 191) 0, #ff2fff 100%);
+  background-image: linear-gradient(65deg, rgb(253, 45, 191) 0, #e58ab2 100%);
   color: #000;
   font-weight: bold !important;
   box-shadow: 0 8px 16px rgba(226, 243, 73, 0.4);
@@ -386,7 +386,7 @@ a.back-to-top:focus {
 }
 
 .sk-circle .sk-child:before {
-  content: '';
+  content: "";
   display: block;
   margin: 0 auto;
   width: 15%;
@@ -573,7 +573,7 @@ a.back-to-top:focus {
 }
 
 .page-banner:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -633,7 +633,7 @@ a.back-to-top:focus {
 }
 
 .top-nav-collapse {
-  background: #1c1c1c;
+  background: #0c0d21;
   z-index: 999999;
   top: 0px !important;
   min-height: 58px;
@@ -644,7 +644,7 @@ a.back-to-top:focus {
   animation-fill-mode: both;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  background: #1c1c1c !important;
+  background: #0c0d21 !important;
 }
 
 .top-nav-collapse .navbar-brand {
@@ -652,7 +652,7 @@ a.back-to-top:focus {
 }
 
 .top-nav-collapse .navbar-nav .nav-link {
-  color: #212121 !important;
+  color: #0c0d21 !important;
 }
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
@@ -684,7 +684,7 @@ a.back-to-top:focus {
   padding: 0 15px;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 40px;
   text-transform: uppercase;
@@ -696,7 +696,7 @@ a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav li > a:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 19px;
   left: 5%;
@@ -777,7 +777,7 @@ a.back-to-top:focus {
 }
 
 .dropdown-menu:before {
-  content: '';
+  content: "";
   display: inline-block;
   position: absolute;
   bottom: 100%;
@@ -877,7 +877,7 @@ a.back-to-top:focus {
 
 @media (max-width: 991px) {
   .bg-inverse {
-    background: #1c1c1c !important;
+    background: #151629 !important;
     box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   }
   .navbar-expand-lg .navbar-brand,
@@ -1033,7 +1033,7 @@ a.back-to-top:focus {
 }
 
 .ready-to-play:before {
-  content: '';
+  content: "";
   background-image: linear-gradient(0deg, #2a1c7a 0, #3fa3c2 100%);
   position: absolute;
   display: block;
@@ -1156,7 +1156,7 @@ h1 {
 }
 
 .counter-section:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1210,7 +1210,7 @@ h1 {
 /* Sponsors Area */
 #sponsors {
   /* background: url(https://cdn.pixabay.com/photo/2015/12/08/00/26/desk-1081708_960_720.jpg) no-repeat center; */
-  background-color: #fff;
+  background-color: #0c0d21;
   background-attachment: scroll;
   background-size: auto auto;
   background-size: cover;
@@ -1291,7 +1291,7 @@ h1 {
 
 .schedule .nav-tabs .nav-item.show .nav-link:before,
 .schedule .nav-tabs .nav-link.active:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 42%;
   bottom: -24px;
@@ -1346,7 +1346,7 @@ h1 {
   max-width: 18%;
 }
 #information-bar .inforation-wrapper i {
-  background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
+  background-image: linear-gradient(0deg, #0c0d21 0, #151629 100%);
   font-weight: 700;
 }
 .schedule .card-header {
@@ -1418,8 +1418,8 @@ h1 {
 }
 
 .accordion .header-title:after {
-  font-family: 'LineIcons';
-  content: '\e93a';
+  font-family: "LineIcons";
+  content: "\e93a";
   position: absolute;
   right: 10px;
   color: #999;
@@ -1430,7 +1430,7 @@ h1 {
 }
 
 .accordion .collapsed:after {
-  content: '\e940';
+  content: "\e940";
 }
 
 .accordion .card-header {
@@ -1573,7 +1573,7 @@ h1 {
 }
 
 .single-intro-text:hover i {
-  background-image: linear-gradient(65deg, rgb(253, 45, 191) 0, #ff2fff 100%);
+  background-image: linear-gradient(65deg, rgb(253, 45, 191) 0, #e58ab2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1871,7 +1871,7 @@ h1 {
 }
 
 .register-link {
-  color: #ff2fff !important;
+  color: #e58ab2 !important;
   cursor: pointer;
   font-weight: 700;
 }
@@ -2297,7 +2297,7 @@ footer {
   border: none;
   position: relative;
   height: auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   border-radius: 4px;
   text-align: center;
   font-weight: 400;
@@ -2312,7 +2312,7 @@ footer {
   line-height: 45px;
   font-weight: 700;
   letter-spacing: 0.3;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: block;
   color: #fff;
   margin-bottom: 10px;
@@ -2485,7 +2485,7 @@ footer {
 ========================================================================== */
 .hero-area-bg {
   /* background: url(../img/hero-area.jpg) no-repeat; */
-  background: url(../img/background/bgop.png) no-repeat;
+  background: url(../img/background/bgop.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   height: 110vh;
@@ -2578,7 +2578,7 @@ img#nav-logo {
   width: 100px;
   padding: 15px 0;
   background: rgba(255, 255, 255, 0.12);
-  border-top: 5px solid #ff2fff;
+  border-top: 5px solid #e58ab2;
 }
 
 #clock div h3 {
@@ -2669,7 +2669,7 @@ div#clock {
     font-weight: 500;
   }
   #nav-container {
-    background: #1c1c1c;
+    background: #151629;
   }
   .about-content ul li {
     font-size: 17px !important;
@@ -2704,19 +2704,18 @@ section#count {
 #sponsor-heading {
   font-size: 40px;
   margin-bottom: 50px;
-  color: #000 !important;
 }
 /* Dark Theme */
 section#about {
-  background: #000;
+  background: #0c0d21;
   color: #fff;
 }
 section#information-bar {
-  background: #000;
+  background: #0c0d21;
 }
 section#domains,
 section#prizes {
-  background: #000;
+  background: #0c0d21;
 }
 p.wow.fadeInDown.animated,
 h2.section-title.wow.fadeInUp.animated,
@@ -2725,10 +2724,10 @@ h2.section-title.wow.fadeInUp.animated,
   font-size: 20px;
 }
 #information-bar .inforation-wrapper {
-  background: #1c1c1c;
+  background: #151629;
 }
 #information-bar .inforation-wrapper {
-  background-image: linear-gradient(0deg, #000 0, #000c44 100%);
+  background-image: linear-gradient(0deg, #0c0d21 0, #151629 100%);
 }
 #information-bar ul li span b {
   color: aliceblue;
@@ -2738,16 +2737,16 @@ span {
 }
 section#schedules,
 section#faq {
-  background: #000;
+  background: #0c0d21;
 }
 .schedule .nav-tabs .nav-link,
 div#headingOne,
 div#headingOne1,
 div#headingOne3 {
-  background: #1c1c1c;
+  background: #151629;
 }
 .schedule .show .card-body {
-  background: #333333;
+  background: #151629;
 }
 .schedule .card-header h4,
 p,
@@ -2760,7 +2759,7 @@ h3 {
 .schedule .nav-tabs .nav-link,
 #information-bar .inforation-wrapper,
 .blog-item .icon {
-  box-shadow: 0 8px 24px #000;
+  box-shadow: 0 8px 24px #0c0d21;
 }
 .schedule .item-text h4 {
   color: white;
@@ -2773,7 +2772,7 @@ h3 {
   box-shadow: 0 8px 24px #000;
 }
 .blog-item .descr {
-  background: #1c1c1c;
+  background: #151629;
   color: whitesmoke;
 }
 .blog-item .descr h3 a {
@@ -2781,14 +2780,14 @@ h3 {
 }
 section#contact-text,
 footer {
-  background: #000;
+  background: #151629;
 }
 #contact-text .contact-wrapper {
-  background: #1c1c1c;
+  background: #151629;
 }
 .single-intro-text {
   box-shadow: 0 8px 24px #000;
-  background: #1c1c1c;
+  background: #151629;
 }
 .single-intro-text:hover {
   box-shadow: 0 8px 24px #2c2c2c;
@@ -2801,7 +2800,7 @@ footer {
 }
 
 .top-nav-collapse {
-  background: #0f0f0f !important;
+  background: #0c0d21 !important;
 }
 .top-nav-collapse .navbar-nav .nav-link {
   color: #fff !important;
