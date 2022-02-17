@@ -237,7 +237,7 @@ ol li {
 
 .btn-common {
   /* background-image: linear-gradient(65deg, #0000ff 0, #00bfff 100%); */
-  background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
+  background-image: linear-gradient(65deg, #7fc1c8 7%, #09f 70%);
   box-shadow: 0 8px 16px rgba(26, 164, 206, 0.75);
   position: relative;
 }
@@ -344,7 +344,7 @@ a.back-to-top i {
   height: 40px;
   line-height: 40px;
   color: #fff !important;
-  background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
+  background-image: linear-gradient(65deg, #7fc1c8 7%, #09f 70%);
   border-radius: 30px;
   text-align: center;
   transition: all 0.2s ease-in-out;
@@ -666,7 +666,7 @@ a.back-to-top:focus {
 .navbar-expand-lg .navbar-toggler {
   background: transparent;
   border: 1px solid #2b72ad;
-  background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
+  background-image: linear-gradient(65deg, #7fc1c8 7%, #09f 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -727,7 +727,7 @@ a.back-to-top:focus {
 .navbar-expand-lg .navbar-nav li a:hover,
 .navbar-expand-lg .navbar-nav li .active > a,
 .navbar-expand-lg .navbar-nav li a:focus {
-  background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
+  background-image: linear-gradient(65deg, #7fc1c8 7%, #09f 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -736,7 +736,7 @@ a.back-to-top:focus {
 
 .navbar-expand-lg .navbar-nav .nav-link:focus,
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-  background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
+  background-image: linear-gradient(65deg, #7fc1c8 7%, #09f 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text !important;
@@ -747,7 +747,7 @@ a.back-to-top:focus {
 }
 
 .navbar li.active a.nav-link {
-  background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
+  background-image: linear-gradient(65deg, #7fc1c8 7%, #09f 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text !important;
@@ -1092,7 +1092,7 @@ h1 {
   color: #fff !important;
 }
 .counter-section .counter .icon {
-  background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%) !important;
+  background-image: linear-gradient(65deg, #7fc1c8 7%, #09f 70%) !important;
 }
 
 .video-text {
@@ -1274,7 +1274,7 @@ h1 {
 .schedule .nav-tabs .nav-item .nav-link:hover {
   border-color: transparent;
   position: relative;
-  background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
+  background-image: linear-gradient(65deg, #7fc1c8 7%, #09f 70%);
 }
 
 .schedule .nav-tabs .nav-item.show .nav-link h4,
@@ -1334,7 +1334,7 @@ h1 {
 }
 
 .schedule .card .schedule-slot-time {
-  background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
+  background-image: linear-gradient(65deg, #7fc1c8 7%, #09f 70%);
   color: #fff;
   padding: 38px 28px;
   float: left;
