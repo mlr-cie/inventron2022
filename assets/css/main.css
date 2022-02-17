@@ -1530,7 +1530,7 @@ h1 {
 }
 
 .single-intro-text:hover {
-  box-shadow: 0 16px 48px #e2e8ed;
+  box-shadow: 0 8px 24px #0c0d21;
 }
 
 .single-intro-text i {
@@ -1647,7 +1647,7 @@ h1 {
 
 /* Team Item */
 .team-item:hover {
-  box-shadow: 0 16px 48px #e2e8ed;
+  box-shadow: 0 8px 24px #0c0d21;
 }
 
 .team-item {
@@ -1838,7 +1838,7 @@ h1 {
   color: #ffffff;
   display: block;
   font-size: 26px;
-  box-shadow: 0 16px 48px #e2e8ed;
+  box-shadow: 0 8px 24px #0c0d21;
   width: 60px;
   height: 60px;
   line-height: 65px;
@@ -1906,7 +1906,7 @@ h1 {
 }
 
 .blog-item:hover {
-  box-shadow: 0 16px 48px #e2e8ed;
+  box-shadow: 0 8px 24px #0c0d21;
 }
 
 .blog-item:hover .blog-image img {
@@ -2432,12 +2432,12 @@ footer {
 }
 
 #pricing .price-block-wrapper:hover {
-  box-shadow: 0 16px 48px #e2e8ed;
+  box-shadow: 0 8px 24px #0c0d21;
 }
 
 #pricing .active {
   background-image: linear-gradient(65deg, #0000ff 0, #00bfff 100%);
-  box-shadow: 0 16px 48px #e2e8ed;
+  box-shadow: 0 8px 24px #0c0d21;
 }
 
 #pricing .active .icon i {
@@ -2790,13 +2790,13 @@ footer {
   background: #151629;
 }
 .single-intro-text:hover {
-  box-shadow: 0 8px 24px #2c2c2c;
+  box-shadow: 0 8px 24px #0c0d21;
 }
 .blog-item {
   box-shadow: 0 8px 24px #000;
 }
 .blog-item:hover {
-  box-shadow: 0 8px 24px #2c2c2c;
+  box-shadow: 0 8px 24px #0c0d21;
 }
 
 .top-nav-collapse {
