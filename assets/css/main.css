@@ -2876,7 +2876,7 @@ li.stylish-list {
 .tag-bag {
   background: linear-gradient(
     92.34deg,
-    #f3f5f9 -1.26%,
+    #151629 -1.26%,
     rgba(0, 0, 0, 0) 51.96%
   );
   padding: 0.45em;
@@ -2894,19 +2894,19 @@ li.stylish-list {
   top: 4.5em;
 }
 .hero-btn-m {
-  background: linear-gradient(65deg, #7fc1c8 7%, #09f 70%);
+  background: #151629;
   mix-blend-mode: normal;
-  box-shadow: 0px 15px 25px -9px rgba(26, 164, 206, 0.75);
+  box-shadow: 0 8px 24px #000;
   border-radius: 12px;
-  color: #000 !important;
+  color: #fff;
   padding: 0.5em 2em;
   font-weight: 600;
   font-size: 1.1em;
 }
 .timer-box {
-  background: linear-gradient(65deg, #7fc1c8 7%, #09f 70%);
+  background: #151629;
   box-sizing: border-box;
-  box-shadow: 0px 4px 9px 10px rgba(220, 220, 220, 0.25);
+  box-shadow: 0 8px 24px #000;
   width: 80px;
   height: 80px;
   text-align: center;
@@ -2914,10 +2914,10 @@ li.stylish-list {
 }
 .timer-box h5 {
   margin: 0;
-  color: #000000;
+  color: #fff;
   position: relative;
   top: 0.2em;
 }
 .timer-box p {
-  color: #000000;
+  color: #fff;
 }
