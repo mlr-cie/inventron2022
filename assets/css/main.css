@@ -41,18 +41,17 @@ body {
 }
 
 h1,
-
 h3,
 h4,
 h5 {
   font-size: 36px;
   font-weight: 700;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-h2{
+h2 {
   font-size: 36px;
   font-weight: 700;
-  font-family: 'Neometric-bold', sans-serif;
+  font-family: "Neometric-bold", sans-serif;
 }
 
 a {
@@ -2277,7 +2276,7 @@ footer {
    Countdown Style Start
    ========================================================================== */
 #count {
-  background:  #212121;
+  background: #212121;
 }
 
 #count .count-wrapper {
@@ -2311,7 +2310,7 @@ footer {
   border: none;
   position: relative;
   height: auto;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   border-radius: 4px;
   text-align: center;
   font-weight: 400;
@@ -2831,4 +2830,96 @@ li.stylish-list {
 }
 .prize-desc {
   display: none;
+}
+.hero-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3em;
+  line-height: 46px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0.45em;
+}
+.hero-main {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1300px) {
+  .hero-main {
+    width: 70%;
+  }
+}
+@media (max-width: 1100px) {
+  .hero-main {
+    width: 80%;
+  }
+}
+@media (max-width: 950px) {
+  .hero-main {
+    flex-direction: column;
+  }
+  .hero-btn {
+    top: 3.5em;
+  }
+  .hero-two {
+    margin: 0 !important;
+    top: 8em;
+    position: relative;
+    width: 20em;
+  }
+}
+.hero-area-bg {
+  display: flex;
+  align-items: center;
+}
+.tag-bag {
+  background: linear-gradient(
+    92.34deg,
+    #f3f5f9 -1.26%,
+    rgba(0, 0, 0, 0) 51.96%
+  );
+  padding: 0.45em;
+}
+.m-tag {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600;
+}
+.hero-two {
+  margin: 0 0 auto auto;
+}
+.hero-btn {
+  position: relative;
+  top: 4.5em;
+}
+.hero-btn-m {
+  background: #ffffff;
+  mix-blend-mode: normal;
+  box-shadow: 0px 15px 25px -9px #ffffff;
+  border-radius: 12px;
+  color: #000 !important;
+  padding: 0.5em 2em;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.timer-box {
+  background: #dcdcdc;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 9px 10px rgba(220, 220, 220, 0.25);
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin: 0.5em 1em;
+}
+.timer-box h5 {
+  margin: 0;
+  color: #000000;
+  position: relative;
+  top: 0.2em;
+}
+.timer-box p {
+  color: #000000;
 }
