@@ -2497,7 +2497,7 @@ footer {
 ========================================================================== */
 .hero-area-bg {
   /* background: url(../img/hero-area.jpg) no-repeat; */
-  background: url(../img/background/bgop.jpg) no-repeat;
+  background: url(../img/background/1.png) no-repeat;
   background-size: cover;
   background-position: center center;
   height: 110vh;
@@ -2719,15 +2719,15 @@ section#count {
 }
 /* Dark Theme */
 section#about {
-  background: #0c0d21;
+  background: #0D0C0C;
   color: #fff;
 }
 section#information-bar {
-  background: #0c0d21;
+  background: #0D0C0C;
 }
 section#domains,
 section#prizes {
-  background: #0c0d21;
+  background: #0D0C0C;
 }
 p.wow.fadeInDown.animated,
 h2.section-title.wow.fadeInUp.animated,
@@ -2736,10 +2736,11 @@ h2.section-title.wow.fadeInUp.animated,
   font-size: 20px;
 }
 #information-bar .inforation-wrapper {
-  background: #151629;
+  background: #131313;
 }
 #information-bar .inforation-wrapper {
-  background-image: linear-gradient(0deg, #0c0d21 0, #151629 100%);
+  /* background-image: linear-gradient(0deg, #0c0d21 0, #151629 100%); */
+  background-image: #131313;
 }
 #information-bar ul li span b {
   color: aliceblue;
@@ -2749,13 +2750,13 @@ span {
 }
 section#schedules,
 section#faq {
-  background: #0c0d21;
+  background: #0D0C0C;
 }
 .schedule .nav-tabs .nav-link,
 div#headingOne,
 div#headingOne1,
 div#headingOne3 {
-  background: #151629;
+  background: #0D0C0C;
 }
 .schedule .show .card-body {
   background: #151629;
@@ -2771,7 +2772,7 @@ h3 {
 .schedule .nav-tabs .nav-link,
 #information-bar .inforation-wrapper,
 .blog-item .icon {
-  box-shadow: 0 8px 24px #0c0d21;
+  box-shadow: 0 18px 34px #212121;
 }
 .schedule .item-text h4 {
   color: white;
@@ -2792,7 +2793,7 @@ h3 {
 }
 section#contact-text,
 footer {
-  background: #151629;
+  background: #0D0C0C;
 }
 #contact-text .contact-wrapper {
   background: #151629;
@@ -2802,7 +2803,7 @@ footer {
   background: #151629;
 }
 .single-intro-text:hover {
-  box-shadow: 0 8px 24px #0c0d21;
+  box-shadow: 0 8px 24px #0D0C0C;
 }
 .blog-item {
   box-shadow: 0 8px 24px #000;
@@ -2812,7 +2813,7 @@ footer {
 }
 
 .top-nav-collapse {
-  background: #0c0d21 !important;
+  background: #0D0C0C !important;
 }
 .top-nav-collapse .navbar-nav .nav-link {
   color: #fff !important;
@@ -2838,6 +2839,7 @@ li.stylish-list {
   text-align: center;
   color: #ffffff;
   margin-bottom: 0.45em;
+
 }
 .hero-main {
   margin: 0 auto;
@@ -2860,7 +2862,7 @@ li.stylish-list {
     flex-direction: column;
   }
   .hero-btn {
-    top: 3.5em;
+    top: 5.5em;
   }
   .hero-two {
     margin: 0 !important;
@@ -2894,14 +2896,18 @@ li.stylish-list {
   top: 4.5em;
 }
 .hero-btn-m {
-  background: #151629;
+  background: #fff;
   mix-blend-mode: normal;
-  box-shadow: 0 8px 24px #000;
+  box-shadow: 0px 15px 25px -9px #FFFFFF;
   border-radius: 12px;
-  color: #fff;
+  color: #000;
   padding: 0.5em 2em;
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 1.4em;
+  height: 78px;
+  left: 187px;
+  top: 690px;
+  width: 320px;
 }
 .timer-box {
   background: #151629;
